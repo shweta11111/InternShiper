@@ -149,6 +149,11 @@
   z-index: 1;
 }
 
+/* Add this rule to reduce the font size of carousel banners by 2px */
+.carousel-caption .display-3 {
+  font-size: 3.5rem;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
   width: 10%;
