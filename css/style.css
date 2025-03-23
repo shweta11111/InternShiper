@@ -151,7 +151,7 @@
 
 /* Add this rule to reduce the font size of carousel banners by 2px */
 .display-3 {
-  font-size: calc(1.525rem + 3vw);
+  font-size: calc(1.525rem + 2.5vw);
 }
 
 @media screen and (min-width: 768px) {
