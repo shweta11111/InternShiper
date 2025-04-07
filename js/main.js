@@ -104,9 +104,9 @@
   $(".universities-partner").owlCarousel({
     autoplay: true,
     smartSpeed: 100,
-    fluidSpeed: true,
-    autoplaySpeed: 1000,
-    autoplayTimeout: 1000,
+    // fluidSpeed: true,
+    autoplaySpeed: 5,
+    // autoplayTimeout: 1000,
 
     center: true,
     margin: 25,
