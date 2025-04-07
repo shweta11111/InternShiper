@@ -103,7 +103,10 @@
   // Testimonials carousel
   $(".universities-partner").owlCarousel({
     autoplay: true,
-    smartSpeed: 500,
+    smartSpeed: 100,
+    fluidSpeed: true,
+    autoplayTimeout: 1000,
+
     center: true,
     margin: 25,
     dots: false,
