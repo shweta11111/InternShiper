@@ -105,6 +105,7 @@
     autoplay: true,
     smartSpeed: 100,
     fluidSpeed: true,
+    autoplaySpeed: 1000,
     autoplayTimeout: 1000,
 
     center: true,
