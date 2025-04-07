@@ -105,8 +105,8 @@
     autoplay: true,
     // smartSpeed: 100,
     // fluidSpeed: true,
-    // autoplaySpeed: 100,
-    autoplayTimeout: 100,
+    autoplaySpeed: 100,
+    // autoplayTimeout: 100,
 
     center: true,
     margin: 25,
