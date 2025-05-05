@@ -127,3 +127,22 @@
     },
   });
 })(jQuery);
+
+const videosOwl = $(".video-carousel").owlCarousel({
+  autoplay: true,
+  fluidSpeed: true,
+  // smartSpeed: 1000,
+  // autoplaySpeed: 1000,
+  autoplayTimeout: 3000,
+  fallbackEasing: "linear",
+  center: true,
+  margin: 25,
+  dots: false,
+  loop: true,
+  nav: false,
+  responsive: {
+    0: { items: 1 },
+    576: { items: 1 },
+    992: { items: 3 },
+  },
+});
